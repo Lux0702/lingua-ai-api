@@ -1,4 +1,4 @@
-import { LanguageCode } from '@/common/enums/language-code.enum';
+import { LanguageCode } from '../../common/enums/language-code.enum';
 export class CreateLessonDto {
   courseId!: string;
 

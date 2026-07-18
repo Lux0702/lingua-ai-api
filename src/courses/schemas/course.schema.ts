@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { LanguageCode } from '@/common/enums/language-code.enum';
+import { LanguageCode } from '../../common/enums/language-code.enum';
 import { HydratedDocument } from 'mongoose';
 export type CourseDocument = HydratedDocument<Course>;
 

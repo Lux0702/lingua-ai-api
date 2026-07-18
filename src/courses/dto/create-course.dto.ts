@@ -1,6 +1,6 @@
 import { IsEnum, IsOptional, IsString } from 'class-validator';
 
-import { LanguageCode } from '@/common/enums/language-code.enum';
+import { LanguageCode } from '../../common/enums/language-code.enum';
 export class CreateCourseDto {
   @IsString()
   title!: string;
