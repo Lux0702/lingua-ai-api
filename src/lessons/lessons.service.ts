@@ -5,7 +5,7 @@ import { Model } from 'mongoose';
 import { CreateLessonDto } from './dto/create-lesson.dto';
 import { UpdateLessonDto } from './dto/update-lesson.dto';
 import { Lesson, LessonDocument } from './schemas/lesson.schema';
-import { Course, CourseDocument } from '@/courses/schemas/course.schema';
+import { Course, CourseDocument } from '../courses/schemas/course.schema';
 
 @Injectable()
 export class LessonsService {
